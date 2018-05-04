@@ -8,7 +8,7 @@ public class Enty {
 		this.header=header;
 		this.befor=befor;
 		this.after=befor;
-		
+
 	}
 	public Enty(Enty e){
 		this(e, null, null);
