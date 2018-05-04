@@ -9,6 +9,8 @@ public class Enty {
 		this.befor=befor;
 		this.after=befor;
 
+		System.out.println("11111111111111");
+
 	}
 	public Enty(Enty e){
 		this(e, null, null);
