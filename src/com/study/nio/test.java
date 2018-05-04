@@ -15,6 +15,7 @@ public class test {
 		// TODO Auto-generated method stub
 		RandomAccessFile aFile;
 		try {
+			///
 			aFile = new RandomAccessFile("D:\\1.txt", "rw");
 			FileChannel inChannel = aFile.getChannel();
 
